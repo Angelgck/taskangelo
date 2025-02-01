@@ -1,0 +1,21 @@
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.task-item {
+    transition: background-color 0.3s;
+}
+
+.task-item:hover {
+    background-color: #f8f9fa;
+}
+
+.due-date {
+    font-size: 0.8em;
+    color: #6c757d;
+}
+
+.overdue {
+    color: #dc3545;
+}
